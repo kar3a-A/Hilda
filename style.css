@@ -1,0 +1,154 @@
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgba(0, 0, 0, 0.916);
+  color: white;
+  font-style: italic;
+  font-size: medium;
+}
+@keyframes bounceOutUp {
+20% {
+  -webkit-transform: translate3d(0, -30px, 0);
+  transform: translate3d(0, -30px, 0);
+  -moz-transform: translate3d(0, -30px, 0);
+  -ms-transform: translate3d(0, -30px, 0);
+  -o-transform: translate3d(0, -30px, 0);
+}
+40%, 45% {
+  opacity: 1;
+  transform: translate3d(0, 30px, 0);
+  -webkit-transform: translate3d(0, 30px, 0);
+  -moz-transform: translate3d(0, 30px, 0);
+  -ms-transform: translate3d(0, 30px, 0);
+  -o-transform: translate3d(0, 30px, 0);
+}
+100% {
+  opacity: 0;
+  -webkit-transform: translate3d(0,-50px, 0);
+  transform: translate3d(0,-50px, 0);
+  -moz-transform: translate3d(0,-50px, 0);
+  -ms-transform: translate3d(0,-50px, 0);
+  -o-transform: translate3d(0,-50px, 0);
+}
+}
+.menueitem{
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 70px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.menueitem:hover {
+  box-shadow: rgba(120, 8, 240, 0.492) 0px 5px 15px;
+}
+.logo-name {
+  margin-right: auto;
+  font-size: larger;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.logo-name:hover {
+  animation: bounceOutUp 3s infinite 1s ;
+  -webkit-animation: bounceOutUp 3s infinite 1s ;
+}
+.menueitem > a {
+  text-decoration: none;
+  color: unset;
+  padding-right: 10px;
+}
+.menueitem > a:hover {
+  font-weight: bold;
+}
+
+.mother {
+  margin-top: 20px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto;
+}
+@media (max-width: 800px) {
+  .mother {
+    grid-template-columns: auto;
+  }
+}
+.left {
+  background-color: rgba(244, 22, 244, 0.181);
+  text-align: center;
+  margin-bottom: 1%;
+  border-radius: 15px;
+  height: fit-content;
+  line-height: 2em;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.blockElement {
+  width: 150px;
+  height: 40px;
+  background-color: rgb(182, 56, 100);
+  color: white;
+  font-size: medium;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.blockElement:hover {
+  background-color: rgb(47, 255, 151);
+  color: black;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.black {
+  background-color: rgba(0, 0, 0, 0.252);
+  margin-top: 20px;
+  padding: 10px 0;
+}
+.right {
+  background-color:rgba(0, 106, 255, 0.079);
+  text-align: center;
+  height: fit-content;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.photo {
+  margin: auto;
+  padding-top: 10px;
+  width: 400px;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+.photo:hover {
+  border-radius: 100%;
+  width: 450px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+
+
+
+.Myanmar {
+  color: blue;
+  font-size:larger;
+}
